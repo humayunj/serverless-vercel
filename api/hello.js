@@ -1,4 +1,4 @@
-import * as admin from 'firebase-admin';
+var admin = require('firebase-admin');
 
 var serviceAccount = require("../service-key.json");
 
