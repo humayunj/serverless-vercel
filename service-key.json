@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "vercel-serverless-d4db3",
+  "private_key_id": "ab0780600d9b562086f4e32e5ed7856a8d26f066",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCS1bqtPigI5fIi\n/RLNs4EO4f/XAFa/iyhi4tBrVS5efl7z7sZ+i1YGZLeXvIfcbXMyuB1e3fXfVmAA\nJYGrdk30Dy63VNyffZQI81CHbp8CaxKjSUtCAwdpi0A9Au9VPdOo4IYvqFyga6Nz\nT/rvZS+0kBdhpp1Nu81ff6FhGp7GvZcaXPCjQa3xVUsbtBOXLFDLy1OQZp07dV31\nsaJn1sf/lfegHP9vM2H/+jj9qXp9NP/6ZE20nJXq+8l8bXXttWE8I1Iqj0ZmWiAE\nQ1RJwJB7L2UKI58O07IrON6qOdDhe52p/0aZl5ZZMPshpGfp3IVqarfybY+LWTwJ\nys6eRYedAgMBAAECggEABXRwiERpiFXCi7o1xfPdNN2rJiRFFL3pX4MS6xSHByD6\ntg/bdT1dPMTmbSSmh3HUIxY5QRpN1WDdas6kj+dyjevieGfBVSDSgbfy+JULeIjc\ncGR7VJXNjgY2T2NEhjjTHCWl1oS9VthTgifT0quXp3A9mMsackDVKFm9d7YIH/9C\nAi+YeHRqiBaU7MPmS8/z9fvReLNF78U/zUvCVvdkaKzuGRtCdexdU+Q1mHYEMZNI\n8LPx46PwdvnF63r5O1YT6XTnNdvW30ME0ZNsLRYcHCeo+pOXMxhXcSsI4EyoManH\nSsRYI6LN3JjBVoOYyzQGC1OJvP3JilRtCc2EiekjoQKBgQDG0yTITmguzpoPwiVE\nP80BJr5DfD9Zm5Hhwb6yxuJhpFWUnbNVOVoKCaA0hH4vkOj7AEFDB5kyWmaimpzs\ny1h4yuFcAl6gNp+zIDWJsOjEiu20kNWvvHFKJrIdJExui9USfnCwmZFUsSb0coWd\nFxPoHT09jrUUok7F9rEMNR1QiwKBgQC9D0CSCOjie3/SaSxZmyGl8Vdsscv/usB7\nGBiMFSLe6zu/vvmxYE/jkl6guP/nJUWWFRoTsSrF9QJFdBYjh2Ch1P4JNrryaHMO\necJSQR6cUFDaBHXYL/GzkL5W5zP92YJFtxdkpxxACXs9/6Kmf4+QMPjKzpnKh61v\nz9FPyiMldwKBgEd17jt8St+/7AmL6x8Lm2A1j57r0k0fqCAvJZ5V81nK2eOPhrwz\n39PJv+YAVOY9vC8y2UIBQiOh8E+zKIHHWGYZ7UPHqkEFQQL9qaBykEbL9EG46MTA\nAyv2mn/04u+8nHmILnKaz2xUO78SRkm+2K3NjIxKdXUUHSHz15CeqomfAoGAZcB3\nuCEjdgGR4eTJAdEEYxNpQg7PBGu2fImTbJFTmzZvidt294gmdwyn8UigMf9VXFkv\nF7oak0AyYL8By01pLLA9qSfTpfOhOQE/HJX/q5FucmhEJH5pT4NvbcYxrUYLXwoT\nhRCLm8t+kPesyn+M/MXeoQhgrSgoqCzpMlBQajECgYBldNOutA+2I/LwEWXlzt61\nglChTA1Bb+VMMWXVgrCJeuzBa239gSLM5Ojp5w+Ov/qwbXHyV7TDeChybIG8mYmU\n3g2Y9HbesfBt0RAkoZVcU0hHGX0qaperZhaho84enPGspRbF8EV/PKsi/RUXgHzJ\nHwFRYw7OOFnki0QFOvn9aA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-kvbet@vercel-serverless-d4db3.iam.gserviceaccount.com",
+  "client_id": "104392483912224766309",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-kvbet%40vercel-serverless-d4db3.iam.gserviceaccount.com"
+}
