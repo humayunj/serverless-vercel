@@ -10,6 +10,7 @@ const db = admin.firestore();
 
 
 module.exports = (req,res) => {
+    try {
     const {name = "World"}  = req.query;
     
     const docRef = db.collection('users').doc('alovelace');
@@ -18,5 +19,9 @@ module.exports = (req,res) => {
         last:  'Lovelace',
         born:1815
     });
+    
     res.status(200).send(`Hello ${name}!`);
+    } catch (e) {
+        res.status(200).send(e.toString());
+    }
 }
