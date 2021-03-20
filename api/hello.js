@@ -1,27 +1,29 @@
-var admin = require('firebase-admin');
+var admin = require("firebase-admin");
 
 var serviceAccount = require("../service-key.json");
 
-admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount),
-  });
-
-const db = admin.firestore();
-
-
-module.exports = (req,res) => {
-    try {
-    const {name = "World"}  = req.query;
-    
-    const docRef = db.collection('users').doc('alovelace');
-    docRef.set({
-        first:'Ada',
-        last:  'Lovelace',
-        born:1815
+module.exports = async (req, res) => {
+  try {
+    console.log(serviceAccount);
+    admin.initializeApp({
+      credential: admin.credential.cert(serviceAccount),
     });
-    
+
+    const db = admin.firestore();
+
+    const { name = "World" } = req.query;
+
+    console.log("Hello");
+    const docRef = db.collection("users").doc("alovelace");
+    await docRef.set({
+      first: "Ada",
+      last: "Lovelace",
+      born: 1815,
+    });
+    console.log("DONE");
     res.status(200).send(`Hello ${name}!`);
-    } catch (e) {
-        res.status(200).send(e.toString());
-    }
-}
+  } catch (e) {
+    console.log(e);
+    res.status(200).send(e.toString());
+  }
+};
